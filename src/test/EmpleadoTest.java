@@ -51,7 +51,7 @@ class EmpleadoTest {
     }
 
     @Test
-    void testNominaBrutaEncargadoHorasExtra() {
+    void testNominaBrutaEHorasExtra() {
         assertEquals(2560.0f, emp.calculoNominaBruta(TipoEmpleado.ENCARGADO, 0.0f, 2.0f), 0.01f);
     }
 
